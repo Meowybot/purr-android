@@ -19,7 +19,7 @@
  * Copyright (C) 2024 LOVE Development Team
  */
 
-package org.love2d.android;
+package apps.didiermeow.purr;
 
 import static android.os.Build.VERSION.SDK_INT;
 

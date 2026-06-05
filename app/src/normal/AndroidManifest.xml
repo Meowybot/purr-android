@@ -15,10 +15,10 @@
         </activity>
         <!--
             Important: GameActivity class name MUST be explicitly written as
-            "org.love2d.android.GameActivity" without any shortcuts.
+            "apps.didiermeow.purr.GameActivity" without any shortcuts.
         -->
         <activity
-            android:name="org.love2d.android.GameActivity"
+            android:name="apps.didiermeow.purr.GameActivity"
             android:exported="false"
             tools:replace="android:exported">
             <intent-filter tools:node="removeAll" />
@@ -32,7 +32,7 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.AppCompat.DayNight" />
         <provider
-            android:name="org.love2d.android.LoveDocumentsProvider"
+            android:name="apps.didiermeow.purr.LoveDocumentsProvider"
             android:authorities="${applicationId}.documents"
             android:exported="true"
             android:grantUriPermissions="true"

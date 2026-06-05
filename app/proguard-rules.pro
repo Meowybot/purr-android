@@ -20,5 +20,5 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class org.love2d.android.GameActivity { *; }
+-keep class apps.didiermeow.purr.GameActivity { *; }
 -keep class org.libsdl.app.** { *; }

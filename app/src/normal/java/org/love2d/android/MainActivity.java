@@ -18,7 +18,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-package org.love2d.android;
+package apps.didiermeow.purr;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;

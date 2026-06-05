@@ -30,7 +30,7 @@
         android:label="${NAME}">
         <!-- You don't have to change the activity class unless you have special needs! !-->
         <activity
-            android:name="org.love2d.android.GameActivity"
+            android:name="apps.didiermeow.purr.GameActivity"
             android:exported="true"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden|navigation"
